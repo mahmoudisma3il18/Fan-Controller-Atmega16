@@ -41,6 +41,7 @@ int main(void)
 			LCD_displayString("Temp = ");
 			LCD_goToRowColumn(1,10);
 			LCD_integrToString(temp);
+			LCD_displayCharacter(' '); // To delete Extra Digit
 		}
 		else if (temp < 60)
 		{
@@ -51,6 +52,7 @@ int main(void)
 			LCD_displayString("Temp = ");
 			LCD_goToRowColumn(1,10);
 			LCD_integrToString(temp);
+			LCD_displayCharacter(' '); // To delete Extra Digit
 		}
 		else if (temp < 90)
 		{
@@ -61,6 +63,7 @@ int main(void)
 			LCD_displayString("Temp = ");
 			LCD_goToRowColumn(1,10);
 			LCD_integrToString(temp);
+			LCD_displayCharacter(' '); // To delete Extra Digit
 		}
 		else if (temp < 120)
 		{
@@ -71,6 +74,7 @@ int main(void)
 			LCD_displayString("Temp = ");
 			LCD_goToRowColumn(1,10);
 			LCD_integrToString(temp);
+			LCD_displayCharacter(' '); // To delete Extra Digit
 		}
 		else if (temp >= 120)
 		{
@@ -81,6 +85,7 @@ int main(void)
 			LCD_displayString("Temp = ");
 			LCD_goToRowColumn(1,10);
 			LCD_integrToString(temp);
+			LCD_displayCharacter(' '); // To delete Extra Digit
 		}
 		else
 		{
