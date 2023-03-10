@@ -6,6 +6,8 @@
  */ 
 
 
+
+
 #ifndef MOTOR_H_
 #define MOTOR_H_
 
@@ -14,6 +16,7 @@
 #include "common_macros.h"
 #include <avr/io.h>
 #include "PWM.h"
+#include "gpio.h"
 
 /*---------------------------------------- Typedefs -------------------------------------------------*/
 
